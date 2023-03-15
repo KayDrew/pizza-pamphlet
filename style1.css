@@ -1,0 +1,139 @@
+
+
+
+body{
+font-family:Serif;
+
+}
+
+
+.container{border: 1px solid rgb(150,150,200);
+background-color:rgb(50, 103, 121);
+color:cornsilk;
+margin: 0 auto;
+max-width:80%;
+padding: 20px;
+
+
+}
+
+.places{	
+display:grid;
+grid-template-columns:1fr;
+justify-content:center;
+	
+}
+
+
+
+@media screen and (min-width:700px){
+	.places{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,3fr));
+text-align:center;
+justify-content:center;
+	
+	}	
+}
+
+
+
+#profile{
+	
+margin-top:37px;
+
+}
+
+h1{
+	font-size:2.3em;
+	font-family:cursive;
+	
+	padding-right:20px;
+	
+}
+
+@media screen  and (min-width:700px){
+
+	#profile{
+		display: flex;
+		flex-wrap: row;
+		padding: 30px;
+		justify-content: center;
+		text-align: center;
+	}
+h1{ 
+	font-size:3em;
+}
+	#photo{	
+
+float:left;
+width: 250px;
+	
+	}	
+}
+
+
+.city{
+	display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,2fr));
+}
+
+.paris{	
+	
+	display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,2fr));
+}
+	img{
+	box-shadow:2px 2px 5px 5px rgba(255,255,255,0.6);
+
+	}
+
+#paris{
+	box-shadow:2px 2px 5px 5px rgba(255,255,255,0.6);
+	margin-top:20px;
+	width: 300px;
+	
+	}
+
+table{
+	table-layout:fixed;
+border-spacing:0px;
+	
+}
+
+nav{text-align:right;}
+
+a{
+color:rgba(255,255,255,1);
+text-decoration:none;
+margin:45px;
+}
+
+td{
+border:1px solid white; 
+}
+
+
+h2,h3,h4{margin-top:37px;
+margin-bottom:17px;
+font-family:cursive;
+
+
+}
+
+
+
+p,li,table{
+	font-family: "Courier New",Courier,monospace;
+}
+
+#photo{
+	margin-top:50px;
+}
+
+
+
+#places{
+	margin-top:60px;
+	margin-bottom:0px;
+}
