@@ -55,8 +55,9 @@ padding:10px;
 
 #one{display:inline-block;
 padding-right:50px;
-
 }
+
+
 #two{display:inline-block;
 
 }
@@ -91,6 +92,11 @@ text-align:center;
 
 
 @media screen and (min-width:960px){
+    
+    
+    #one{display:inline-block;
+padding-right:100px;
+}
 	
 	#one,#two {font-size:15px;}
 	
@@ -103,6 +109,7 @@ text-align:center;
 	
 	.medium,.large,.small{
 		margin-right:10px;
+		padding: 15px;
 	}
 	
 	
@@ -110,6 +117,8 @@ text-align:center;
 		margin-bottom:20px;
 		float:right;
 		width:33.33%;
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+		border-radius:20px; 
 		
 	}
 	
@@ -118,6 +127,8 @@ text-align:center;
 		margin-bottom:20px;
 		float:center;
 		width:33.33%;
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+		border-radius:20px; 
 	}
 	
 	
@@ -125,6 +136,9 @@ text-align:center;
 		margin-bottom:20px;
 		float:left;
 		width:33.33%;
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+		border-radius:20px; 
+		
 	}
 }
   
