@@ -39,6 +39,11 @@ body{
 	border-radius:20px; 
 
 }
+	
+	#one{
+padding-right:50px;
+}
+
 
 }
 
@@ -54,7 +59,7 @@ padding:10px;
 
 
 #one{display:inline-block;
-padding-right:50px;
+
 }
 
 
@@ -66,6 +71,7 @@ padding-right:50px;
 .small{
 background-color:rgba(255,0,110,0.3);
 	padding:15px;
+	border-radius:20px;
 		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
 
 }
@@ -74,13 +80,15 @@ background-color:rgba(255,0,110,0.3);
 .large{
 		background-color:rgba(0,255,0,0.3);
 			padding:15px;
-				box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+				border-radius:20px;
+	box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
 }
 
 
 .medium{
 	background-color:rgba(131,56,236,0.3);
 	padding:15px;
+border-radius:20px;
 		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
 }
 
@@ -94,7 +102,7 @@ text-align:center;
 @media screen and (min-width:960px){
     
     
-    #one{display:inline-block;
+    #one{
 padding-right:100px;
 }
 	
@@ -103,8 +111,6 @@ padding-right:100px;
 	.pizzamenu{
 		
 		display:flex;
-
-	
 	}
 	
 	.medium,.large,.small{
