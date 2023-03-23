@@ -6,6 +6,173 @@
 
   <title>Responsive Page With A Framework</title>
 
+  <style>
+  
+  
+  body{
+	background-color:rgba(251,86,7,0.8);
+}
+
+.container{
+	width:90%;
+	margin:0 auto;
+}
+
+
+@media screen and (max-width:960px){
+    
+    .price{margin-top:100px;
+    
+    }
+    
+    .top{display:grid;
+    grid-template-columns: 1fr 1fr;
+    }
+
+.photo{order:2;}
+.text{order:1;}
+
+.medium{
+	background-color:rgba(131,56,236,0.5);
+	margin-bottom:20px;
+	border-radius:20px; 
+}
+
+.large{
+		background-color:rgba(0,255,0,0.5);
+	padding:20px;
+	margin-bottom:20px;
+	border-radius:20px; 
+	
+}
+
+.small{
+	
+	padding:20px;
+	margin-bottom:10px;
+	border-radius:20px; 
+
+}
+
+#one{
+padding-right:50px;
+}
+
+}
+
+.footer{
+background-color:rgba(58,134,255,0.8);
+margin-bottom:50px;
+padding:10px;
+	font-size: 11px;
+	border-radius:20px; 
+	box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+}
+
+
+
+#one{display:inline-block;
+
+}
+
+
+#two{display:inline-block;
+
+}
+
+
+.small{
+background-color:rgba(255,0,110,0.3);
+	padding:15px;
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+
+}
+
+
+.large{
+		background-color:rgba(0,255,0,0.3);
+			padding:15px;
+				box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+}
+
+
+.medium{
+	background-color:rgba(131,56,236,0.3);
+	padding:15px;
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+}
+
+h1
+{margin-bottom:20px;
+margin-top:30px;
+text-align:center;
+}
+
+
+@media screen and (min-width:960px){
+    
+    #one{
+padding-right:100px;
+}
+    
+	
+	#one,#two {font-size:15px;}
+	
+	.pizzamenu{
+		
+		display:flex;
+
+	
+	}
+	
+	.medium,.large,.small{
+		margin-right:10px;
+		padding: 15px;
+	}
+	
+	
+	.small{
+		margin-bottom:20px;
+		float:right;
+		width:33.33%;
+		border-radius:30px; 
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+		
+		
+	}
+	
+	
+	.medium{
+		margin-bottom:20px;
+		float:center;
+		width:33.33%;
+		border-radius:30px; 
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+		 
+	}
+	
+	
+	.large{
+		margin-bottom:20px;
+		float:left;
+		width:33.33%;
+		border-radius:30px; 
+		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
+		
+		
+	}
+}
+  
+ #heading{
+  font-size:35px;
+  
+  
+  }
+  
+  
+  
+  
+  </style>
   
 </head>
 
@@ -29,7 +196,7 @@
 
 <div clasa="text">
 <h2>Medium Pizza</h2>
-<h2>R78.99</h2>
+<h2 class="price">R78.99</h2>
 </div>
 
 </div>
@@ -48,7 +215,7 @@
 
 <div clasa="text">
 <h2>Large Pizza</h2>
-<h2>R98.99</h2>
+<h2 class="price">R98.99</h2>
 </div>
 
 </div>
@@ -66,7 +233,7 @@
 
 <div clasa="text">
 <h2>Small Pizza</h2>
-<h2>R68.99</h2>
+<h2 class="price">R68.99</h2>
 </div>
 
 </div>

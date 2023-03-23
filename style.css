@@ -10,6 +10,10 @@ body{
 
 @media screen and (max-width:960px){
     
+    .price{margin-top:100px;
+    
+    }
+    
     .top{display:grid;
     grid-template-columns: 1fr 1fr;
     }
@@ -19,7 +23,6 @@ body{
 
 .medium{
 	background-color:rgba(131,56,236,0.5);
-	padding:20px;
 	margin-bottom:20px;
 	border-radius:20px; 
 }
@@ -40,6 +43,10 @@ body{
 
 }
 
+#one{
+padding-right:50px;
+}
+
 }
 
 .footer{
@@ -54,7 +61,7 @@ padding:10px;
 
 
 #one{display:inline-block;
-padding-right:50px;
+
 }
 
 
@@ -93,10 +100,10 @@ text-align:center;
 
 @media screen and (min-width:960px){
     
-    
-    #one{display:inline-block;
+    #one{
 padding-right:100px;
 }
+    
 	
 	#one,#two {font-size:15px;}
 	
@@ -117,8 +124,9 @@ padding-right:100px;
 		margin-bottom:20px;
 		float:right;
 		width:33.33%;
+		border-radius:30px; 
 		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
-		border-radius:20px; 
+		
 		
 	}
 	
@@ -127,8 +135,9 @@ padding-right:100px;
 		margin-bottom:20px;
 		float:center;
 		width:33.33%;
+		border-radius:30px; 
 		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
-		border-radius:20px; 
+		 
 	}
 	
 	
@@ -136,8 +145,9 @@ padding-right:100px;
 		margin-bottom:20px;
 		float:left;
 		width:33.33%;
+		border-radius:30px; 
 		box-shadow: 1px 1px 3px 3px rgba(251,86,7,0.4);
-		border-radius:20px; 
+		
 		
 	}
 }
