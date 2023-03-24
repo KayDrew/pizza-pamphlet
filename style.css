@@ -55,7 +55,7 @@ img{
 }
 
 #one{
-padding-right:100px;
+padding-right:50px;
 }
 
 }
@@ -127,7 +127,7 @@ text-align:center;
 @media screen and (min-width:960px){
     
     #one{
-padding-right:400px;
+padding-right:100px;
 }
 
 #heading{
